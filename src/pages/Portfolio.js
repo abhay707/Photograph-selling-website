@@ -3,6 +3,8 @@ import Image1 from '../img/portfolio/1.png';
 import Image2 from '../img/portfolio/2.png';
 import Image3 from '../img/portfolio/3.png';
 import Image4 from '../img/portfolio/4.png';
+import Image5 from '../img/portfolio/5.png';
+import Image6 from '../img/portfolio/6.png';
 
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -60,6 +62,16 @@ const Portfolio = () => {
               <img
                 className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
                 src={Image4} />
+            </div>
+            <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'>
+              <img
+                className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
+                src={Image5} />
+            </div>
+            <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'>
+              <img
+                className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
+                src={Image6} />
             </div>
           </div>
         </div>

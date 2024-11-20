@@ -10,6 +10,7 @@ const CursorProvider = ({ children }) => {
 
   const mobileViewportIsActive = window.innerWidth < 768;
 
+  
   useEffect(() => {
     if(!mobileViewportIsActive){
 
